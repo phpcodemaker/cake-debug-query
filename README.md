@@ -1,11 +1,18 @@
-
 # cake-debug-query
 
 ### Debug Query in CakePHP
+This is a development support code and not the complete package.
+The method in the Query.php under src folder can be copied to /vendor/cakephp/cakephp/src/Database/Query.php Class.
 
-Dependency for this debugQuery($formatSQL = true) method jdorn/sql-formatter can be found https://github.com/jdorn/sql-formatter
+### Note
+If There is a new update from CakePHP Database Query then the changes you made will be lost.
 
-Place the debugQuery($formatSQL = true) method as follows inside file /vendor/cakephp/cakephp/src/Database/Query.php
+### Dependency
+Make sure the dependency for this debugQuery($formatSQL = true) method jdorn/sql-formatter is available in vendor.
+You can install this dependency using this link https://github.com/jdorn/sql-formatter.
+
+### How to use in code?
+Place the debugQuery($formatSQL = true) method as follows inside file 
 
 ```
 <!-- language: php -->

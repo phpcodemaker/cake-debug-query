@@ -20,8 +20,5 @@
       "name": "karthik",
       "email": "karthikn.mca@gmail.com"
     }
-  ],
-  "require": {
-    "jdorn/sql-formatter": "v1.2.17"
-  }
+  ]
 }
