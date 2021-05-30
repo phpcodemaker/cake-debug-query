@@ -1,0 +1,27 @@
+{
+  "name": "phpcodemaker/cake-debug-query",
+  "description": "Query Debugger in CakePHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "cakephp3 sql debugger",
+    "cakephp3 query debugger",
+    "cakephp3 debug sql",
+    "cakephp3 debug query",
+    "cakephp3 debug sql query",
+    "cakephp4 sql debugger",
+    "cakephp4 query debugger",
+    "cakephp4 debug sql",
+    "cakephp4 debug query",
+    "cakephp4 debug sql query"
+  ],
+  "authors": [
+    {
+      "name": "karthik",
+      "email": "karthikn.mca@gmail.com"
+    }
+  ],
+  "require": {
+    "jdorn/sql-formatter": "v1.2.17"
+  }
+}
